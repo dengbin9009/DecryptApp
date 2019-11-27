@@ -1,0 +1,6 @@
+framework module libAllFramework {
+  umbrella header "libAllFramework.h"
+
+  export *
+  module * { export * }
+}
