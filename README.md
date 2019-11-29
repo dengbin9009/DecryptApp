@@ -2,7 +2,7 @@
 动态砸壳，主动加载所有动态库（framework，dylib）
 
 # 对应文章
-[iOS逆向(11)-砸壳原理剖析，主动加载所有framework](https://www.jianshu.com/p/526c714a944e)  
+[iOS逆向(11)-砸壳原理剖析，主动加载所有framework](https://juejin.im/post/5dde5cb1e51d4542362f6e0e)  
 
 其中包含主动加载所有framework的framework，只需利用`DYLD_INSERT_LIBRARIES`注入即可,解决砸壳时，有部分动态库不启动的问题。
 
